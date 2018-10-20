@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A3441</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#d4dbe7</color>
+    <color name="orange">#F3885E</color>
+    <color name="orange_second">#f05a1f</color>
+
+
+    <!--Poster-->
+    <color name="posterTitle">@color/orange</color>
+    <color name="favorite_on_background">@color/orange_second</color>
+    <color name="tab_indication_color">@color/orange_second</color>
+</resources>
