@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/circle_orange" />
+    <item>
+        <shape
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="2.1"
+            android:useLevel="false">
+            <solid android:color="#40cccccc" />
+        </shape>
+    </item>
+
+    <item android:left="1dp" android:right="1dp" android:bottom="1dp">
+        <shape
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="2.1"
+            android:useLevel="false">
+            <solid android:color="@color/favorite_on_background" />
+        </shape>
+    </item>
     <item android:drawable="@drawable/ic_heart_white" />
 </layer-list>

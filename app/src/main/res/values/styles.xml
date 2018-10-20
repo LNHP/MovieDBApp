@@ -30,12 +30,15 @@
         <item name="android:paddingBottom">15dp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/btn_background</item>
+
     </style>
 
     <style name="AppTheme.ImagePoster">
-        <item name="android:layout_height">@dimen/poster_height</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">2:3</item>
         <item name="android:contentDescription">@string/description</item>
         <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
     </style>
 
     <style name="AppTheme.TextContent">

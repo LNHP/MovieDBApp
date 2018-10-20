@@ -9,8 +9,9 @@
     <ImageView
         android:id="@+id/imv_trailer"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/trailer_image_height"
+        android:layout_height="0dp"
         android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="3.5:2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/trailer_ex" />

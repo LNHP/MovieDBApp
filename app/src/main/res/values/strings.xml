@@ -18,5 +18,6 @@
 
     <!-- Example text-->
     <string name="movie_content_ex">Sheriff\'s deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.</string>
+    <string name="no_movie_chosen">No Movie Chosen</string>
 
 </resources>
