@@ -7,82 +7,101 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="8dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp">
 
         <ImageView
             android:id="@+id/imv_poster"
             android:layout_width="0dp"
-            android:layout_height="300dp"
-            android:contentDescription=""
+            android:layout_height="@dimen/poster_height"
+            android:contentDescription="@string/description"
             android:scaleType="fitXY"
+            app:layout_constraintEnd_toStartOf="@+id/ll_detail_content"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent=".5"
             tools:src="@drawable/poster_ex" />
 
         <LinearLayout
+            android:id="@+id/ll_detail_content"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
             android:orientation="vertical"
-            app:layout_constraintLeft_toRightOf="@+id/imv_poster"
-            app:layout_constraintRight_toRightOf="parent">
+            app:layout_constraintStart_toEndOf="@id/imv_poster"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".5">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLines="2"
-
-                tools:text="HOTEL TRANSYLVANIA" />
+                android:paddingTop="4dp"
+                android:textColor="@color/movie_title"
+                android:textStyle="bold"
+                tools:text="HOTEL TRANSYLVANIA 2" />
 
             <RatingBar
                 style="?android:attr/ratingBarStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:numStars="10"
+                android:paddingTop="4dp"
                 android:rating="6.5"
                 android:stepSize="0.5"
                 app:layout_constraintRight_toRightOf="parent" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@android:color/darker_gray"/>
+                android:layout_marginTop="16dp"
+                android:background="@color/divider_color" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_date"
+                android:gravity="center_vertical"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
                 tools:text="March 2015" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@android:color/darker_gray"/>
+                android:background="@color/divider_color" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:maxLines="10"
-                tools:text="When the old-old"/>
+                android:paddingTop="4dp"
+                tools:text="When the old-old" />
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="end"
-                android:src="@drawable/btn_favourite_off"/>
         </LinearLayout>
 
         <TextView
             android:id="@+id/tv_trailers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawableStart="@drawable/ic_trailers"
+            android:gravity="center_vertical"
+            android:text="@string/trailers_title"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imv_poster"
-            android:text="Trailers"/>
+            app:layout_constraintTop_toBottomOf="@id/imv_poster" />
 
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_trailers"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_trailers" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_marginEnd="@dimen/poster_margin"
     android:layout_marginStart="@dimen/poster_margin"
-    android:layout_marginTop="8dp">
+    android:layout_marginTop="@dimen/poster_item_margin_top">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,8 +16,8 @@
         <ImageView
             android:id="@+id/imv_poster"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:scaleType="fitXY"
+            android:layout_height="@dimen/poster_height"
+            android:scaleType="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/poster_ex" />

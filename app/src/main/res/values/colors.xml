@@ -18,5 +18,7 @@
     <color name="tab_indication_color">@color/orange_second</color>
     <color name="splash_background">@color/gray_dark</color>
     <color name="button_background">@color/gray_dark</color>
+    <color name="movie_title">#000000</color>
+    <color name="divider_color">#F2F2F2</color>
 
 </resources>
