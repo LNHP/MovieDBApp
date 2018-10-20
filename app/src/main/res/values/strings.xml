@@ -2,9 +2,21 @@
     <string name="app_name">The Movie Database</string>
     <string name="description">image</string>
 
-    <!-- User-->
+    <!-- User text-->
     <string name="sign_in">SIGN IN</string>
     <string name="sign_up">SIGN UP</string>
     <string name="or_skip">OR SKIP</string>
+
+    <!-- Title text -->
     <string name="trailers_title">Trailers</string>
+    <string name="read_more">Read more</string>
+    <string name="title_popular">Popular</string>
+    <string name="title_most_rated">Most rated</string>
+    <string name="title_my_fav">My fav</string>
+    <string name="title_details">Details</string>
+    <string name="title_reviews">Reviews</string>
+
+    <!-- Example text-->
+    <string name="movie_content_ex">Sheriff\'s deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.</string>
+
 </resources>

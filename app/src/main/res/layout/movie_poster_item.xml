@@ -16,8 +16,7 @@
         <ImageView
             android:id="@+id/imv_poster"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/poster_height"
-            android:scaleType="center"
+            style="@style/AppTheme.ImagePoster"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/poster_ex" />
@@ -33,6 +32,7 @@
             tools:src="@drawable/btn_favourite_on" />
 
         <TextView
+            android:layout_marginTop="4dp"
             android:id="@+id/tv_poster_title"
             style="@style/PosterTextTitle"
             android:layout_width="match_parent"

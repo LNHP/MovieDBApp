@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@android:color/white">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:maxLines="1"
         android:ellipsize="end"
-        tools:text="Frank ochineng"/>
+        tools:text="Frank ochineng"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLines="7"
         android:ellipsize="end"
-        tools:text="Lorem ipsum"/>
+        android:layout_marginTop="8dp"
+        style="@style/AppTheme.TextContent"
+        tools:text="@string/movie_content_ex"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Read more"
+        android:text="@string/read_more"
+        android:textColor="@color/orange"
         android:layout_gravity="end"/>
 </LinearLayout>

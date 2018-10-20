@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:background="@android:color/white">
 
     <ImageView
         android:id="@+id/imv_trailer"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="@dimen/trailer_image_height"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/poster_ex"
-        android:scaleType="fitXY"/>
+        tools:src="@drawable/trailer_ex" />
 
     <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/trailers"
-        app:layout_constraintStart_toStartOf="@id/imv_trailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play"
+        app:layout_constraintBottom_toBottomOf="@id/imv_trailer"
         app:layout_constraintEnd_toEndOf="@id/imv_trailer"
-        app:layout_constraintTop_toTopOf="@id/imv_trailer"
-        app:layout_constraintBottom_toBottomOf="@id/imv_trailer"/>
+        app:layout_constraintStart_toStartOf="@id/imv_trailer"
+        app:layout_constraintTop_toTopOf="@id/imv_trailer" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:maxLines="2"
-        tools:text="Hotel"
+        style="@style/AppTheme.TextContent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imv_trailer"
-        app:layout_constraintStart_toStartOf="parent"/>
+        tools:text="Home MakeOver - Official trailer (HD)"
+        android:layout_marginTop="8dp"/>
 </android.support.constraint.ConstraintLayout>

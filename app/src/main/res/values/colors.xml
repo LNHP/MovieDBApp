@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2A3441</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
 
     <color name="background">#d4dbe7</color>
     <color name="orange">#F3885E</color>
@@ -10,7 +7,9 @@
     <color name="gray_dark">#303B4A</color>
     <color name="gray_light">#484D5a</color>
 
-
+    <color name="colorPrimary">#2A3441</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
 
     <!--Poster-->
     <color name="posterTitle">@color/orange</color>

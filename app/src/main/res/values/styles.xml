@@ -32,12 +32,23 @@
         <item name="android:background">@drawable/btn_background</item>
     </style>
 
-    <style name="AppTheme.Image">
-
+    <style name="AppTheme.ImagePoster">
+        <item name="android:layout_height">@dimen/poster_height</item>
+        <item name="android:contentDescription">@string/description</item>
+        <item name="android:scaleType">fitXY</item>
     </style>
 
-    <style name="AppTheme.Text">
+    <style name="AppTheme.TextContent">
+        <item name="android:textColor">#858585</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
 
+    <style name="AppTheme.TextUpperWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
 </resources>
