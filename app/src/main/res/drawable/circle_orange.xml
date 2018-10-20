@@ -4,9 +4,4 @@
     android:thicknessRatio="2.1"
     android:useLevel="false">
     <solid android:color="@color/favorite_on_background" />
-    <padding
-        android:bottom="@dimen/favourite_image_padding"
-        android:left="@dimen/favourite_image_padding"
-        android:right="@dimen/favourite_image_padding"
-        android:top="@dimen/favourite_image_padding_top" />
 </shape>

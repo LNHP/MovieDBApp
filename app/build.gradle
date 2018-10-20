@@ -13,7 +13,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
 //        buildConfigField 'String', 'API_KEY', "\"" + (System.getenv("MOVIE_DB_API"))+ "\""
-        buildConfigField 'String', 'API_KEY', "2697e9a6bcb1bbc57492209f50e2685b"
+        buildConfigField 'String', 'API_KEY', "\"2697e9a6bcb1bbc57492209f50e2685b\""
 
     }
 

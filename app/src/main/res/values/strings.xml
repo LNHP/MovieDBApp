@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">The Movie Database</string>
+    <string name="description">image</string>
+
+    <!-- User-->
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="or_skip">OR SKIP</string>
 </resources>

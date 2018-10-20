@@ -2,8 +2,5 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@drawable/circle_orange" />
-    <item
-        android:width="@dimen/favourite_image_size"
-        android:height="@dimen/favourite_image_size"
-        android:drawable="@drawable/heart"></item>
+    <item android:drawable="@drawable/ic_heart_white" />
 </layer-list>
