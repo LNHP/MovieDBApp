@@ -13,10 +13,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
-            android:paddingBottom="8dp"
+            android:paddingBottom="@dimen/default_view_margin"
             android:paddingEnd="0dp"
-            android:paddingStart="8dp"
-            android:paddingTop="8dp">
+            android:paddingStart="@dimen/default_view_margin"
+            android:paddingTop="@dimen/default_view_margin">
 
             <include
                 android:id="@+id/detail_header"

@@ -6,6 +6,15 @@
     <string name="sign_in">SIGN IN</string>
     <string name="sign_up">SIGN UP</string>
     <string name="or_skip">OR SKIP</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="password_again">PASSWORD AGAIN</string>
+    <string name="cancel">CANCEL</string>
+    <string name="new_password_text">Please enter your new password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="restore_password_text">Please enter your email so we can send you link to reset password</string>
+    <string name="wrong_email_password">wrong email/password</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
 
     <!-- Title text -->
     <string name="trailers_title">Trailers</string>
@@ -19,5 +28,6 @@
     <!-- Example text-->
     <string name="movie_content_ex">Sheriff\'s deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.</string>
     <string name="no_movie_chosen">No Movie Chosen</string>
+
 
 </resources>

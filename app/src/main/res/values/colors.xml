@@ -7,6 +7,7 @@
     <color name="gray_dark">#303B4A</color>
     <color name="gray_light">#484D5a</color>
 
+
     <color name="colorPrimary">#2A3441</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
@@ -19,5 +20,9 @@
     <color name="button_background">@color/gray_dark</color>
     <color name="movie_title">#000000</color>
     <color name="divider_color">#F2F2F2</color>
+
+
+    <color name="edt_hint_color">#77787E</color>
+    <color name="edt_underscore_color">#303543</color>
 
 </resources>

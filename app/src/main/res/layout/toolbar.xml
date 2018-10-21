@@ -20,7 +20,7 @@
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            tools:minHeight="48dp">
+            tools:minHeight="@dimen/default_view_margin">
 
             <ImageView
                 android:layout_width="wrap_content"

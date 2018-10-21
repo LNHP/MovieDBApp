@@ -54,7 +54,6 @@
             android:background="@color/divider_color" />
 
         <TextView
-            style="@style/AppTheme.TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_date"
@@ -69,13 +68,12 @@
             android:background="@color/divider_color" />
 
         <TextView
-            style="@style/AppTheme.TextContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="10"
-            android:paddingTop="4dp"
             android:paddingEnd="2dp"
+            android:paddingTop="4dp"
             tools:text="@string/movie_content_ex" />
 
     </LinearLayout>

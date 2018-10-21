@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="default_view_margin">@dimen/default_view_margin</dimen>
+</resources>

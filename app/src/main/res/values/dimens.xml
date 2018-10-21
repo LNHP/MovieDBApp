@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="poster_padding">8dp</dimen>
+    <dimen name="default_view_margin">8dp</dimen>
+
+    <dimen name="poster_padding">@dimen/default_view_margin</dimen>
     <dimen name="poster_margin">4dp</dimen>
     <dimen name="poster_container_padding">4dp</dimen>
-    <dimen name="movie_tab_height">48dp</dimen>
+    <dimen name="movie_tab_height">4@dimen/default_view_margin</dimen>
+    <dimen name="poster_item_margin_top">@dimen/default_view_margin</dimen>
 
-    <dimen name="poster_item_margin_top">8dp</dimen>
 
 </resources>
