@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginEnd="@dimen/poster_margin"
-    android:layout_marginStart="@dimen/poster_margin"
-    android:layout_marginTop="@dimen/poster_item_margin_top">
+    android:layout_margin="@dimen/poster_margin">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,8 +13,8 @@
 
         <ImageView
             android:id="@+id/imv_poster"
-            android:layout_width="match_parent"
             style="@style/AppTheme.ImagePoster"
+            android:layout_width="match_parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@drawable/poster_ex" />
@@ -32,11 +30,11 @@
             tools:src="@drawable/btn_favourite_on" />
 
         <TextView
-            android:layout_marginTop="4dp"
             android:id="@+id/tv_poster_title"
             style="@style/PosterTextTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imv_poster"
